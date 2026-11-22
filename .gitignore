@@ -1,0 +1,16 @@
+# Gizli ve kişisel içerik: asla GitHub'a gitmez
+ozel/*
+!ozel/.gitkeep
+girdiler/*
+!girdiler/.gitkeep
+
+# Anahtarlar ve kişisel ayarlar
+.env
+.env.*
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Araç çıktıları
+node_modules/
+dist/
+.DS_Store
